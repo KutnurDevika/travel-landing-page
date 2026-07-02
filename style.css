@@ -48,7 +48,7 @@ nav ul li a{
 nav a:hover{
       color:#F59E0B;
 }
-button{
+.header-btn{
     font-size: 25px;
     padding: 25px;
     border-radius: 10px;
@@ -57,4 +57,56 @@ button{
 }
 button:hover{
   background:#D97706;  
+}
+
+
+/*hero section css*/
+
+#hero{
+    margin-top: 50px;
+   padding: 80px;
+}
+.hero-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+}
+
+.hero-content h2{
+font-size: 55px;
+}
+.hero-content p{
+    font-size: 25px;
+width: 900px;
+}
+.hero-btns{
+    margin-top: 35px;
+}
+button{
+   
+padding: 16px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    transition: transform 0.3s ease;
+    margin-left: 20px;
+}
+button:hover{
+    transform: translateY(-8px);
+}
+button:first-child{
+   background-color:#2563EB;
+     color:white;   
+}
+button:last-child{
+     background:white;
+    color:#2563EB;
+    border:2px solid #2563EB;
+}
+.hero-img img{
+    width: 500px;
+    border-radius: 25px;
 }
