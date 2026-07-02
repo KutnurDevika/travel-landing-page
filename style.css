@@ -4,8 +4,9 @@
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #F8FAFC;
+    color: #1F2937;
     line-height: 1.7;
-     
 }
 
 /*headeer css*/
@@ -98,6 +99,7 @@ button:hover{
     transform: translateY(-8px);
 }
 button:first-child{
+  
    background-color:#2563EB;
      color:white;   
 }
@@ -109,4 +111,54 @@ button:last-child{
 .hero-img img{
     width: 500px;
     border-radius: 25px;
+}
+
+/*destinations section css*/
+
+#destinations{
+padding:90px 60px;
+text-align: center;
+}
+.destinations-content h2{
+font-size: 45px;
+}
+.destinations-content p{
+
+  margin-bottom: 20px;
+font-size: 25px;
+}
+.destinations-container{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+}
+.destination-card{
+padding: 20px;
+background-color:white;
+border-radius:20px ;
+text-align: center;
+margin: 30px;
+transition: transform 0.3s ease;
+}
+.destination-card:hover{
+  transform: translateY(-8px);
+}
+.destination-card img{
+border-radius: 25px;
+width: 300px;
+}
+.destination-card h3{
+font-size: 34px;
+}
+.destination-card p{
+
+font-size: 20px;
+
+
+}
+.destination-card span{
+ display:block;
+    font-size:24px;
+    font-weight:700;
+    color:#F59E0B;
+    margin:20px 0;
 }
