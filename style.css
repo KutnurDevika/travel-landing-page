@@ -214,7 +214,7 @@ transform: translateY(-8px);
 
 }
 
-/* Packages Section */
+/* Packages Section css*/
 
 #packages{
     padding: 80px 50px;
@@ -291,4 +291,66 @@ transform: translateY(-8px);
 
 .package-card button:hover{
     background-color: #1D4ED8;
+}
+
+/* Testimonials Section */
+
+#testimonials{
+    padding: 80px 50px;
+}
+
+.testimonials-content{
+    text-align: center;
+}
+
+.testimonials-content h2{
+    font-size: 45px;
+    margin: 15px 0;
+}
+
+.testimonials-content p{
+    max-width: 700px;
+    margin: 20px auto 50px;
+    font-size: 22px;
+    line-height: 1.8;
+}
+
+.testimonials-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 35px;
+}
+
+.testimonial-card{
+    background: #FFFFFF;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover{
+    transform: translateY(-8px);
+}
+
+.testimonial-card h3{
+    font-size: 28px;
+    color: #F59E0B;
+    margin-bottom: 20px;
+}
+
+.testimonial-card p{
+    font-size: 19px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.testimonial-card h4{
+    font-size: 22px;
+    margin-bottom: 8px;
+}
+
+.testimonial-card span{
+    color: #2563EB;
+    font-weight: 600;
 }
