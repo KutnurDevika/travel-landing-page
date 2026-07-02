@@ -64,7 +64,7 @@ button:hover{
 /*hero section css*/
 
 #hero{
-    margin-top: 50px;
+    margin-top: 15px;
    padding: 80px;
 }
 .hero-container{
@@ -84,7 +84,7 @@ font-size: 55px;
     line-height: 1.8;
 }
 .hero-btns{
-    margin-top: 35px;
+    margin-top: 15px;
 }
 button{
    
@@ -353,4 +353,118 @@ transform: translateY(-8px);
 .testimonial-card span{
     color: #2563EB;
     font-weight: 600;
+}
+
+/* CTA Section css */
+
+#contact{
+    padding: 90px 50px;
+}
+
+.cta-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.cta-content{
+    flex: 1;
+}
+
+.cta-content h2{
+    font-size: 50px;
+    margin: 15px 0;
+}
+
+.cta-content p{
+    font-size: 22px;
+    line-height: 1.8;
+    margin-bottom: 35px;
+}
+
+.cta-content button{
+    background-color: #2563EB;
+    color: white;
+    border: none;
+    padding: 18px 40px;
+    border-radius: 35px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-content button:hover{
+    background-color: #1D4ED8;
+}
+
+.cta-image{
+    flex: 1;
+    text-align: center;
+}
+
+.cta-image img{
+    width: 100%;
+    max-width: 550px;
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+}
+
+.cta-image img:hover{
+    transform: scale(1.03);
+}
+
+/* Footer css */
+
+footer{
+    background-color: #0F172A;
+    color: white;
+    padding: 70px 50px 30px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-brand{
+    max-width: 350px;
+}
+
+.footer-brand h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.footer-brand p{
+    line-height: 1.8;
+}
+
+.footer-links ul,
+.footer-contact ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.footer-links li,
+.footer-contact li{
+    margin-bottom: 12px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-links a:hover{
+    color: #F59E0B;
+}
+
+.copyright{
+    text-align: center;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    margin-top: 50px;
+    padding-top: 25px;
 }
